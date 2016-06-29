@@ -79,7 +79,19 @@
 
 - (void)refreshSeconds {
     self.countDownInterval -= 1;
-    self.timerLabel.text = [NSString stringWithFormat:@"%@", [self secondsToHoursAndMinutes:self.countDownInterval]];
+    if (self.countDownInterval > 0) {
+        self.timerLabel.text = [NSString stringWithFormat:@"%@", [self secondsToHoursAndMinutes:self.countDownInterval]];
+    }
+    else if (self.countDownInterval == 0) {
+        [self.timer invalidate];
+        self.countDownInterval = 0;
+        self.pausedTapped = NO;
+        self.timerLabel.hidden = YES;
+        self.datePicker.hidden = NO;
+        self.pauseButton.enabled = NO;
+        [self.startButton setTitle:@"Start" forState:UIControlStateNormal];
+        NSLog(@"count ended!");
+    }
 }
 
 - (IBAction)PauseTapped:(id)sender {
