@@ -10,4 +10,6 @@
 
 @interface FISViewController : UIViewController
 
+-(NSString *)secondsToHoursAndMinutes:(NSTimeInterval)seconds;
+
 @end

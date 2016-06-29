@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00EE91AC746D227FCDD736C4 /* libPods-theFinalCountdownTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFA8838E49B049A55034506 /* libPods-theFinalCountdownTests.a */; };
-		4D55493F1BCC3BB9001E3D77 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D55493E1BCC3BB9001E3D77 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		4D55493F1BCC3BB9001E3D77 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D55493E1BCC3BB9001E3D77 /* Launch Screen.storyboard */; };
 		D81E9F24196D666A00FFD46B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81E9F23196D666A00FFD46B /* Foundation.framework */; };
 		D81E9F26196D666A00FFD46B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81E9F25196D666A00FFD46B /* CoreGraphics.framework */; };
 		D81E9F28196D666A00FFD46B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81E9F27196D666A00FFD46B /* UIKit.framework */; };
@@ -22,7 +22,6 @@
 		D81E9F44196D666A00FFD46B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81E9F23196D666A00FFD46B /* Foundation.framework */; };
 		D81E9F45196D666A00FFD46B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81E9F27196D666A00FFD46B /* UIKit.framework */; };
 		D81E9F4D196D666A00FFD46B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D81E9F4B196D666A00FFD46B /* InfoPlist.strings */; };
-		D81E9F4F196D666A00FFD46B /* theFinalCountdownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D81E9F4E196D666A00FFD46B /* theFinalCountdownTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +57,6 @@
 		D81E9F42196D666A00FFD46B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D81E9F4A196D666A00FFD46B /* theFinalCountdownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "theFinalCountdownTests-Info.plist"; sourceTree = "<group>"; };
 		D81E9F4C196D666A00FFD46B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D81E9F4E196D666A00FFD46B /* theFinalCountdownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = theFinalCountdownTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +154,6 @@
 		D81E9F48196D666A00FFD46B /* theFinalCountdownTests */ = {
 			isa = PBXGroup;
 			children = (
-				D81E9F4E196D666A00FFD46B /* theFinalCountdownTests.m */,
 				D81E9F49196D666A00FFD46B /* Supporting Files */,
 			);
 			path = theFinalCountdownTests;
@@ -315,7 +312,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D81E9F4F196D666A00FFD46B /* theFinalCountdownTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
